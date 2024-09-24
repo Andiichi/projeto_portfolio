@@ -28,3 +28,11 @@
         font-style: normal;
     }
 }
+
+.btn-menu {
+    @apply py-1 px-3 m-2 border-2 border-solid border-color-detalhes hover:border-color-secondary-subtitle hover:text-color-secondary-subtitle transition delay-300 duration-500 ease-in-out;
+}
+
+.redes-sociais {
+    @apply  hover:border-color-secondary-subtitle hover:text-color-secondary-subtitle transition delay-300 duration-500 ease-in-out text-3xl;
+}
